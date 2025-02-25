@@ -14,7 +14,7 @@ The **Exercise Planner** is a Java-based program designed to help users search f
 - **Java**: Core programming language.
 - **Object-Oriented Programming (OOP)**: Applied principles like encapsulation, inheritance, and polymorphism.
 - **File Handling**: Data storage for user exercise plans.
-- **API Integration**: Handled via `HttpClientManager` for potential external exercise databases.
+- **API Integration**: Handled via `HttpClientManager` to fetch from exercise database.
 - **Makefile**: Automates compilation, JAR creation, and execution.
 
 ## Files in This Repository
@@ -28,7 +28,7 @@ The **Exercise Planner** is a Java-based program designed to help users search f
   - `ExercisePlanSaver.java` – Saves exercise plans to a file.
   - `ExercisePlanLoader.java` – Loads exercise plans from a file.
   - `ExerciseFormatter.java` – Formats exercises for display.
-  - `HttpClientManager.java` – Handles API requests (if applicable).
+  - `HttpClientManager.java` – Handles API requests to fetch exercise data.
   - `RegisterUser.java` – Manages user registration.
   - `UserLogin.java` – Handles user authentication.
   - `SearchExercise.java` and Variants – Implements search by name, muscle, difficulty, and type.
@@ -53,7 +53,7 @@ The **Exercise Planner** is a Java-based program designed to help users search f
 - Implement a **GUI-based interface** for a more interactive user experience.
 - Enhance **data persistence** using databases instead of file handling.
 - Expand exercise database with **more detailed filtering options**.
-- Integrate an **external API** to fetch real-time exercise information.
+- Improve API integration for real-time workout recommendations.
 
 ## Author
 **Zach Khan**
